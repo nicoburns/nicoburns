@@ -13,11 +13,26 @@ If you are looking for examples of my work, then you may wish to look at the fol
 
 [**Taffy**](https://github.com/DioxusLabs/taffy) | 2D Layout Engine (Rust) | 2023 
 
-
-
+  - The source code in the [`src/compute/grid`](https://github.com/DioxusLabs/taffy/tree/main/src/compute/grid) directory is all mine
+  - The 200+ associated [text fixtures](https://github.com/DioxusLabs/taffy/tree/main/test_fixtures) (those whose name begins with `grid`)
+  - The [tracking issue](https://github.com/DioxusLabs/taffy/issues/204) for the CSS feature.
+  - Some selected individual Pull Requests:
+     - The [MVP CSS Grid implementation](https://github.com/DioxusLabs/taffy/pull/205)
+     - Test-driven correctness fixes: 
+        - [Grid/refactor coordinate handling](https://github.com/DioxusLabs/taffy/pull/301)
+        - [Grid: Fix percent sizing](https://github.com/DioxusLabs/taffy/pull/306)
+        - [Fixes for aspect ratio and min/max sizes](https://github.com/DioxusLabs/taffy/pull/317)
+        - [Grid: Fixes for minmax, fr proportions and distributing space across multiple tracks](https://github.com/DioxusLabs/taffy/pull/349)
+     - Performance benchmarking and optimisation:
+        - [CSS Grid Benchmarks](https://github.com/DioxusLabs/taffy/pull/340)
+        - [Optimise CSS Grid](https://github.com/DioxusLabs/taffy/pull/338)
+        - [Grid: single track span optimisation](https://github.com/DioxusLabs/taffy/pull/343)
+     - Improvements to the pre-existing Flexbox implementation:
+        - [Layout algorithm decoupling, Sizing Constraints & Perf Improvements](https://github.com/DioxusLabs/taffy/pull/246)
+        - [Implement `gap` property for flexbox algorithm](https://github.com/DioxusLabs/taffy/pull/248)
+        - [Fix sizing of flexbox nodes under a min-content constraint](https://github.com/DioxusLabs/taffy/pull/291)
   - [Full list of Pull Requests](https://github.com/DioxusLabs/taffy/pulls?q=author%3Anicoburns+)
-  - Implementation of CSS Grid (the [tracking issue](https://github.com/DioxusLabs/taffy/issues/204) contains the planning, and the [MVP implementation](https://github.com/DioxusLabs/taffy/pull/205) contains the first cut at the implementation)
-  - Refactoring the flexbox implementation to interoperate with other algorithms (https://github.com/DioxusLabs/taffy/pull/246)
+
 
 [**Knex.js**](https://github.com/knex/knex) | Query Builder (TypeScript) | 2022
 - My [PR to add UPSERT support](https://github.com/knex/knex/pull/3763) to knex.js
