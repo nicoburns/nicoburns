@@ -14,7 +14,7 @@ If you are looking for examples of my work, then you may wish to look at the fol
 [**Taffy**](https://github.com/DioxusLabs/taffy) | 2D Layout Engine (Rust) | 2023 
 
   - The source code in the [`src/compute/grid`](https://github.com/DioxusLabs/taffy/tree/main/src/compute/grid) directory is all mine
-  - The 200+ associated [text fixtures](https://github.com/DioxusLabs/taffy/tree/main/test_fixtures) (those whose name begins with `grid`)
+  - The 200+ associated [test fixtures](https://github.com/DioxusLabs/taffy/tree/main/test_fixtures) (those whose name begins with `grid`)
   - The [tracking issue](https://github.com/DioxusLabs/taffy/issues/204) for the CSS feature.
   - Some selected individual Pull Requests:
      - The [MVP CSS Grid implementation](https://github.com/DioxusLabs/taffy/pull/205)
