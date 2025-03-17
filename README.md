@@ -11,10 +11,10 @@ I'm Nico. A polyglot software developer based in London, UK.
 - [Parley](https://github.com/linebender/parley) - text and web inline layout library
 - [Blessed.rs](https://blessed.rs) - a curated guide to the Rust ecosystem
 
-### Older work
+#### Older work
 
 [**Knex.js**](https://github.com/knex/knex) | Query Builder (TypeScript) | 2022
 - My [PR to add UPSERT support](https://github.com/knex/knex/pull/3763) to knex.js
 
 [**GhostEdit**](https://github.com/nicoburns/ghostedit) | WYSIWYG Editor (JavaScript) | 2010
-- [GhostEdit](https://github.com/nicoburns/ghostedit) - an open source WYSIWYG editor (but bear in mind that this was written way back in 2010, and was targeting IE6+ and thus was unable to use even ES5 features).
+- [GhostEdit](https://github.com/nicoburns/ghostedit) - an open source WYSIWYG editor
