@@ -9,6 +9,7 @@ I'm Nico. A polyglot software developer based in London, UK.
 - [Stylo](https://github.com/servo/stylo) - a style engine
 - [Taffy](https://github.com/DioxusLabs/taffy) - a standalone layout library in Rust implementing the Flexbox and CSS Grid algorithms
 - [Parley](https://github.com/linebender/parley) - text and web inline layout library
+- [Wuff](https://github.com/nicoburns/wuff) - Pure Rust WOFF and WOFF2 decoding
 - [Blessed.rs](https://blessed.rs) - a curated guide to the Rust ecosystem
 
 #### Older work
